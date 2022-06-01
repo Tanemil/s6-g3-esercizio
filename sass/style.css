@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  color: white;
+}
+
+body a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+
+body a:hover {
+  color: yellow;
+}
+
+body nav {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+body nav ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body nav ul li {
+  margin-left: 1rem;
+}
+
+body nav ul button {
+  background-color: yellow;
+  border: 1rem;
+  -webkit-transition: background-color 0.2s ease-in , color 0.2s ease-in;
+  transition: background-color 0.2s ease-in , color 0.2s ease-in;
+  border-radius: 4px;
+}
+
+body nav ul button:hover {
+  background-color: black;
+  color: yellow;
+}
+
+body img {
+  background-image: url("../assets/dark-mist-trees-forest.jpg");
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,49 @@
+@import 'bottoni';
+@import 'variabili';
+
+body{
+    margin: 0;
+    color: $colore_testo;        
+    a{
+        color: $colore_testo;
+        text-decoration: none;
+        transition: color 0.2s ease-in;
+        &:hover{
+            color: yellow;
+        }
+    }
+    nav{
+        background-color: $colore_background_nav;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 $padding_nav;
+        ul{
+            align-items: center;
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            li{
+                margin-left: 1rem; 
+            }
+            button{
+                background-color: $colore_background_bottoni;
+                border: $margin_elementi;
+                transition: background-color 0.2s ease-in , color 0.2s ease-in;
+                border-radius: 4px;
+                &:hover{
+                    background-color:black;
+                    color: yellow;
+                }
+            }
+        }
+    }
+    img{
+        background-image: url('../assets/dark-mist-trees-forest.jpg');
+        height: $altezza_immagine_sfondo;
+        width: $larghezza_immagine_sfondo;
+        background-position: center;
+        background-size: cover;
+    }
+}
